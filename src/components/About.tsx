@@ -2,7 +2,7 @@ import Why from "./Why";
 
 const About = () => {
   return (
-    <section className="bg-white">
+    <section id="apa-itu-screen-time" className="bg-white">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 py-12 md:py-20 px-6 md:px-16 xl:px-30">
         <div className="flex items-center">
           <h1 className="text-3xl md:text-4xl text-[#324382]">

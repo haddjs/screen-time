@@ -5,9 +5,9 @@ const Navbar = () => {
         <img src="/logo.png" alt="logo" className="w-20 h-auto sm:w-27" />
       </div>
       <div className="flex gap-4 text-white text-base sm:gap-6 sm:text-lg lg:gap-8 lg:text-xl">
-        <span>Home</span>
-        <span>About</span>
-        <span>Contact</span>
+        <a href="#home">Home</a>
+        <a href="#kampanye">About</a>
+        <a href="#contact">Contact</a>
       </div>
     </div>
   );

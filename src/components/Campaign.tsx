@@ -1,6 +1,6 @@
 const Campaign = () => {
   return (
-    <div className="bg-white grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 px-6 md:px-16 xl:px-30 py-12 md:py-20 items-center">
+    <div id="kampanye" className="bg-white grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 px-6 md:px-16 xl:px-30 py-12 md:py-20 items-center">
       <div className="flex justify-center">
         <img
           src="/logo.png"

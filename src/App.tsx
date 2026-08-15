@@ -11,7 +11,7 @@ import ScreenTime from "./components/ScreenTime";
 
 const App = () => {
   return (
-    <div className="bg-linear-to-b from-[#3292CD] via-[#1F7EB8] to-[#0A67A0] min-h-full">
+    <div id="home" className="bg-linear-to-b from-[#3292CD] via-[#1F7EB8] to-[#0A67A0] min-h-full">
       <Navbar />
       <Hero />
       <About />

@@ -28,9 +28,11 @@ const Registration = () => {
           bermain, bergerak, dan bereksplorasi.
         </span>
         <div className="flex justify-start py-7">
-          <button className="bg-[#324382] text-white py-3 px-5 sm:py-4 sm:px-5 rounded-3xl">
-            Daftar Disini!
-          </button>
+          <a href="https://forms.gle/eCn9Ab1VaLxyKUWBA" target="_blank">
+            <button className="bg-[#324382] text-white py-3 px-5 sm:py-4 sm:px-5 rounded-3xl cursor-pointer">
+              Daftar Disini!
+            </button>
+          </a>
         </div>
       </div>
     </section>

@@ -15,31 +15,34 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center py-7">
-        <button className="bg-[#324382] py-3 px-5 sm:py-4 sm:px-5 rounded-3xl">
+        <a
+          href="#apa-itu-screen-time"
+          className="bg-[#324382] text-white py-3 px-5 sm:py-4 sm:px-5 rounded-3xl"
+        >
           Pelajari lebih lanjut
-        </button>
+        </a>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto">
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-4 xl:flex xl:justify-center xl:gap-0 max-w-5xl mx-auto">
         <img
-          src="/Asset 4.png"
+          src="/asset4.png"
           alt="asset 4"
-          className="w-full aspect-square object-contain"
+          className="w-full h-auto object-contain xl:w-80 xl:h-70 xl:object-fill"
         />
         <img
-          src="/Asset 1.png"
+          src="/asset1.png"
           alt="asset 1"
-          className="w-full aspect-square object-contain"
+          className="w-full h-auto object-contain xl:w-80 xl:h-70 xl:object-fill xl:-mx-17"
         />
         <img
-          src="/Asset 2.png"
+          src="/asset2.png"
           alt="asset 2"
-          className="w-full aspect-square object-contain"
+          className="w-full h-auto object-contain xl:w-80 xl:h-70 xl:object-fill"
         />
         <img
-          src="/Asset 3.png"
+          src="/asset3.png"
           alt="asset 3"
-          className="w-full aspect-square object-contain"
+          className="w-full h-auto object-contain xl:w-80 xl:h-70 xl:object-fill xl:-ms-20"
         />
       </div>
     </section>
