@@ -8,19 +8,28 @@ import Navbar from "./components/Navbar";
 import Quotes from "./components/Quotes";
 import Registration from "./components/Registration";
 import ScreenTime from "./components/ScreenTime";
+import TornBorder from "./components/TornBorder";
 
 const App = () => {
   return (
-    <div id="home" className="bg-linear-to-b from-[#3292CD] via-[#1F7EB8] to-[#0A67A0] min-h-full">
+    <div id="home" className="bg-[#0966A0] min-h-full">
       <Navbar />
       <Hero />
-      <About />
+      <div className="bg-white">
+        <About />
+      </div>
       <ScreenTime />
+      <TornBorder src="/Vector4.png" bgClass="bg-[#0966A0]" />
       <Impact />
+      <TornBorder src="/Vector2.png" bgClass="bg-[#FFFFC0]" />
       <Quotes />
+      <TornBorder src="/Vector3.png" bgClass="bg-white" />
       <Campaign />
+      <TornBorder src="/Vector4.png" bgClass="bg-[#0966A0]" />
       <Ads />
+      <TornBorder src="/Vector2.png" bgClass="bg-white" />
       <Registration />
+      <TornBorder src="/Vector4.png" bgClass="bg-[#FFFF85]" />
       <Footer />
     </div>
   );

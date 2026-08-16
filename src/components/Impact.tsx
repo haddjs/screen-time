@@ -24,7 +24,7 @@ const Impact = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 xl:flex xl:justify-center xl:gap-0 xl:-space-x-12 pt-10">
+      <div className="grid grid-cols-2 items-end md:grid-cols-4 gap-4 md:gap-6 xl:flex xl:items-end xl:justify-center xl:gap-0 xl:-space-x-12 pt-10">
         <img src="/dampak1.png" alt="dampak 1" className="w-full h-auto xl:w-72 2xl:w-90" />
         <img src="/dampak3.png" alt="dampak 3" className="w-full h-auto xl:w-72 2xl:w-90" />
         <img src="/dampak2.png" alt="dampak 2" className="w-full h-auto xl:w-72 2xl:w-90" />

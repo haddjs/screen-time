@@ -1,4 +1,5 @@
 import Copyright from "./Copyright";
+import TornBorder from "./TornBorder";
 
 const Footer = () => {
   return (
@@ -39,6 +40,8 @@ const Footer = () => {
           />
         </div>
       </div>
+
+      <TornBorder src="/Vector.png" bgClass="bg-[#0966A0]" />
 
       <div className="py-4 md:py-5 bg-[#0966A0]">
         <Copyright />
