@@ -30,22 +30,22 @@ const Hero = () => {
           <img
             src="/asset4.png"
             alt="asset 4"
-            className="w-full h-auto object-contain xl:w-80 xl:h-70 xl:object-fill"
+            className="w-full h-auto object-contain xl:w-85 xl:h-74 xl:object-fill"
           />
           <img
             src="/asset1.png"
             alt="asset 1"
-            className="w-full h-auto object-contain xl:w-80 xl:h-70 xl:object-fill xl:-mx-17"
+            className="w-full h-auto object-contain xl:w-70 xl:h-80 xl:object-fill xl:-mx-17"
           />
           <img
             src="/asset2.png"
             alt="asset 2"
-            className="w-full h-auto object-contain xl:w-80 xl:h-70 xl:object-fill"
+            className="w-full h-auto object-contain xl:w-80 xl:h-81 xl:object-fill"
           />
           <img
             src="/asset3.png"
             alt="asset 3"
-            className="w-full h-auto object-contain xl:w-80 xl:h-70 xl:object-fill xl:-ms-20"
+            className="w-full h-auto object-contain xl:w-80 xl:h-69 xl:object-fill xl:-ms-20"
           />
         </div>
       </section>
