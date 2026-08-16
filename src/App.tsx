@@ -21,7 +21,9 @@ const App = () => {
       <ScreenTime />
       <TornBorder src="/Vector4.png" bgClass="bg-[#0966A0]" />
       <Impact />
-      <TornBorder src="/Vector2.png" bgClass="bg-[#FFFFC0]" />
+      <div className="rotate-180 -mt-5 min-w-screen -mx-2">
+        <TornBorder src="/Vector3.png" bgClass="bg-transparent" />
+      </div>
       <Quotes />
       <TornBorder src="/Vector3.png" bgClass="bg-white" />
       <Campaign />

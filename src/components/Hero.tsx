@@ -49,7 +49,9 @@ const Hero = () => {
           />
         </div>
       </section>
-      <TornBorder src="/Vector2.png" bgClass="bg-white" />
+      <div className="relative z-10 -mt-5 rotate-180">
+        <TornBorder src="/Vector4.png" bgClass="bg-transparent" />
+      </div>
     </>
   );
 };

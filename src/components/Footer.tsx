@@ -23,7 +23,6 @@ const Footer = () => {
                 Instagram
               </a>
             </li>
-            <li>Email</li>
           </ul>
         </div>
 
